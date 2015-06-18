@@ -1,7 +1,4 @@
-# Bayes1_MarkovChainMonteCarlo_SDS384
-
-# Bayesian_MarkovChainMonteCarlo_SDS384
-
+#SDS384
 I ran the M2.R file in R using the model.txt file to generate a Markov Chain Monte Carlo simulation in R and OpenBUGS for my course in Bayesian Statistical Methods (SDS 384) at UT-Austin. I used the R package R2OpenBUGS to call OpenBUGS from R
 
 For the plots in OpenBUGS, there are 3 colors: red, green, and blue, indicating 3 different initial values. The plots show whether the 3 different simulations converge or not, depending on whether their values are close to each other at the end of the iterations
@@ -22,6 +19,7 @@ To check if the auto-correlation of the times series converge to zero, I used th
 When I use M4.R and model2.txt instead, less of the plots show convergence. Thus, M2.R and model1.txt provide the better model
 
 
+#NBAproject
 For my SDS 384 course project, I am trying to implement a Markov Chain Monte Carlo simulation on NBA basketball data. Before performing a Bayesian regression, I tried to determine which variables (such as STL, AST, REB, etc) best predict wins (Winpct) by implementing the Best Subset method and Forward Step methods on a linear regression. Then, I used Jags to run the MCMC and then make sure it is correct by checking the history plots and autocorrelation plots
 
 The completed report is the file "Report.pdf". I also completed analyses using Principal Component Analysis, Ridge regression, and Lasso regression. They are in the files "PCA.r" and "RidgeLasso.r"
